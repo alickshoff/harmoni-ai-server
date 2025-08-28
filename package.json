@@ -1,3 +1,14 @@
-"scripts": {
-  "start": "node server.js"
+{
+  "name": "harmoni-ai-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "node-fetch": "^3.3.2"
+  }
 }
